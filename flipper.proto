@@ -3,6 +3,7 @@ import "storage.proto";
 import "status.proto";
 import "application.proto";
 import "gui.proto";
+import "telegram.proto";
 
 package PB;
 option java_package = "com.flipperdevices.protobuf";
@@ -78,6 +79,10 @@ message Main {
         .PB_Gui.SendInputEventRequest gui_send_input_event_request = 23;
         .PB_Gui.StartVirtualDisplayRequest gui_start_virtual_display_request = 26;
         .PB_Gui.StopVirtualDisplayRequest gui_stop_virtual_display_request = 27;
+        .PB_Telegram.TelegramStateRequest tg_state_request = 28;
+        .PB_Telegram.TelegramStateResponse tg_state_response = 29;
+        .PB_Telegram.TelegramSendMessageRequest tg_send_msg_request = 30;
+        .PB_Telegram.TelegramUpdate tg_update = 31;
     }
 }
 
