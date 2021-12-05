@@ -1,0 +1,8 @@
+PB_Telegram.TelegramMessage.text                type:FT_POINTER
+PB_Telegram.TelegramMessage.text                max_length:20
+PB_Telegram.TelegramDialog.name                 type:FT_POINTER
+PB_Telegram.TelegramDialog.name                 max_length:10
+PB_Telegram.TelegramDialog.messages             max_count:3
+PB_Telegram.TelegramStateResponse.dialogs       max_count:3
+PB_Telegram.TelegramSendMessageRequest.msg      type:FT_POINTER
+PB_Telegram.TelegramSendMessageRequest.msg      max_length:20
