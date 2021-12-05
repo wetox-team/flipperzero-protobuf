@@ -13,7 +13,7 @@ message TelegramMessage {
 }
 
 message TelegramDialog {
-  int64 id = 1;
+  int32 id = 1;
   string name = 2;
   repeated TelegramMessage messages = 3;
 }
@@ -23,6 +23,6 @@ message TelegramStateResponse {
 }
 
 message TelegramSendMessageRequest {
-  int64 id = 1;
+  int32 id = 1;
   string msg = 2;
 }
