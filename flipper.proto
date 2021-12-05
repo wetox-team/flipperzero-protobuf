@@ -82,7 +82,6 @@ message Main {
         .PB_Telegram.TelegramStateRequest tg_state_request = 28;
         .PB_Telegram.TelegramStateResponse tg_state_response = 29;
         .PB_Telegram.TelegramSendMessageRequest tg_send_msg_request = 30;
-        .PB_Telegram.TelegramUpdate tg_update = 31;
     }
 }
 
