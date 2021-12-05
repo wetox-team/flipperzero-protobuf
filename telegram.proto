@@ -12,11 +12,6 @@ message TelegramMessage {
   bool is_our = 2;
 }
 
-message TelegramUpdate {
-  int64 id = 1;
-  TelegramMessage msg = 2;
-}
-
 message TelegramDialog {
   int64 id = 1;
   string name = 2;
